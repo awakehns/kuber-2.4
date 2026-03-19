@@ -63,6 +63,8 @@ kubectl auth can-i get pods --as=dev-user
 kubectl auth can-i get pods/log --as=dev-user
 
 kubectl auth can-i delete pods --as=dev-user
+
+kubectl get csr
 ```
 
 ![kube-1](/img/kube-1.png)
